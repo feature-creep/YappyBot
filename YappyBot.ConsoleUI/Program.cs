@@ -1,6 +1,6 @@
 ﻿using System;
 using YappyBot.Lib;
-using YappyBot.Factory;
+using YappyBot.IoCC;
 using Autofac;
 
 namespace YappyBot.ConsoleUI
@@ -13,7 +13,7 @@ namespace YappyBot.ConsoleUI
 
             using (var scope = container.BeginLifetimeScope())
             {
-                var app = scope.Resolve<IClient>();
+                IClient app = scope.Resolve<IClient>();
             }
         }
     }

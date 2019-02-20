@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\YappyBot.Lib\YappyBot.Lib.csproj" />
+    <ProjectReference Include="..\YappyBot.IoCC\YappyBot.IoCC.csproj" />
   </ItemGroup>
 
 </Project>

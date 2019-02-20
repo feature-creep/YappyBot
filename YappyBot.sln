@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YappyBot.ConsoleUI", "Yappy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YappyBot.Lib.Tests", "YappyBot.Lib.Tests\YappyBot.Lib.Tests.csproj", "{091EB7E6-62AC-4054-8607-72D093A3EDEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YappyBot.Factory", "YappyBot.Factory\YappyBot.Factory.csproj", "{9851A885-3BD3-4B76-A2D6-BED36BF84D6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YappyBot.IoCC", "YappyBot.IoCC\YappyBot.IoCC.csproj", "{9851A885-3BD3-4B76-A2D6-BED36BF84D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YappyBot.Factory.Tests", "YappyBot.Factory.Tests\YappyBot.Factory.Tests.csproj", "{6A911CEE-540E-450F-B64E-A49DFB551BF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YappyBot.IoCC.Tests", "YappyBot.IoCC.Tests\YappyBot.IoCC.Tests.csproj", "{6A911CEE-540E-450F-B64E-A49DFB551BF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

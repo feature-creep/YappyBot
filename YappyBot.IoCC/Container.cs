@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using YappyBot.Lib;
 
-namespace YappyBot.Factory
+namespace YappyBot.IoCC
 {
     public static class Container
     {

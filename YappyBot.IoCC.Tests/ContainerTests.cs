@@ -5,7 +5,7 @@ using Autofac;
 using YappyBot.Lib;
 using Xunit;
 
-namespace YappyBot.Factory.Tests
+namespace YappyBot.IoCC.Tests
 {
     public class ContainerTests
     {
