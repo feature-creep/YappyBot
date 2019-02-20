@@ -4,8 +4,8 @@ using System.Text;
 
 namespace YappyBot.Lib
 {
-    public interface ILogger
+    public interface ITwitchClient : IClient
     {
-        Queue<KeyValuePair<string, DateTime>> Logs { get; }
+        ClientLogger Logs { get; }
     }
 }

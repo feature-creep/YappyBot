@@ -12,7 +12,7 @@ namespace YappyBot.IoCC
         {
             var builder = new ContainerBuilder();
 
-            builder.RegisterType<TwitchClient>().As<IClient>();
+            builder.RegisterType<TwitchClient>().AsSelf().As<ITwitchClient>();
 
             return builder.Build();
         }
